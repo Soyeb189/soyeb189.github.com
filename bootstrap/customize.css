@@ -1,0 +1,167 @@
+.navbar-default {
+  background-color: #fefecc;
+  border-color: #e7e7e7;
+}
+.navbar {
+  position: relative;
+  min-height: 0px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+}
+.active {
+  color: #457CAD;
+  background: #ADADAD;
+}
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px;
+  }
+  .image{
+  	height: 300px;
+  	width: 100%;
+  }
+  .thumbnail {
+  background-color: #eeeeee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: block;
+  line-height: 1.42857;
+  margin-bottom: 20px;
+  margin-left: -13px;
+  padding: 30px;
+  transition: border 0.2s ease-in-out 0s;
+  margin-right: -13px;
+}
+.clear{
+	overflow: hidden;
+ }
+ .customJumbotron {
+  height: 200px;
+  padding: 18px;
+  background: #EEEEEE;
+  margin-bottom: 18px;
+}
+.customJumbotron h2{
+  font-size: 20px;
+}
+.customJumbotron p{
+  font-size: 15px;
+  margin-bottom: 5px;
+
+}
+.customJumbotron strong{
+
+}
+.contact{
+  background: #EEEEEE;
+  padding: 30px;
+}
+.contact button{
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.customJumbotronContact {
+  background: #eeeeee none repeat scroll 0 0;
+  height: 396px;
+  margin-bottom: 18px;
+  padding: 18px;
+}
+.customJumbotronContact h2 {
+  font-size: 50px;
+  padding: 25px;
+}
+.customJumbotronContact p {
+  font-size: 20px;
+  margin-left: 24px;
+  padding: 2px;
+}
+.social {
+  background: #eeeeee none repeat scroll 0 0;
+  margin-bottom: 15px;
+}
+.social i {
+  align-self: left;
+  font-size: 73px;
+  margin-left: 0px;
+  padding: 17px 8px;
+}
+ 
+.galarry {
+  background: #eeeeee none repeat scroll 0 0;
+  margin-right: -15px;
+  margin-left: 15px;
+}
+.galarry img {
+  background: #eeeeee none repeat scroll 0 0;
+  float: left;
+  height: 68px;
+  padding: 10px;
+  width: 159px;
+}
+.galarry h2{
+  text-align: center;
+  padding-right: 70px;
+
+}
+.slider{
+
+}
+.slider img {
+  height: 364px !important;
+  width: 1139px;
+}
+.home{
+
+}
+.home img {
+  height: 300px;
+  padding: 40px 0px 10px 47px;
+  width: 500px;
+}
+.home h3{
+  text-align: center;
+}
+.homeAddress {
+  background: #eeeeee none repeat scroll 0 0;
+}
+.homeAddress h2 {
+  padding: 10px;
+  margin-left: 165px;
+}
+.homeAddress p {
+  margin-left: 56px;
+}
+.homeAbout{
+   background: #eeeeee none repeat scroll 0 0;
+}
+.homeAbout h2{
+  padding: 10px;
+  margin-left: 165px;
+}
+.homeAbout p{
+  margin-left: 10px;
+}
+.homeAbout a{
+  
+}
+.homeAbout a button {
+  display: block;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: 15px;
+}
+.pic {
+  float: left;
+  height: 109px;
+  width: 170px;
+  padding: 10px;
+}
+.row1{
+  background: #EEEEEE;
+  margin: 0px;
+}
+@media only screen and (min-width: 200px ) and (max-width: 600px){
+  .home img {padding: 32px 14px 42px 10px;}
+  .homeAddress h2 {margin-left: 46px;}
+  .homeAbout h2 {margin-left: 46px;}
+}
